@@ -1,0 +1,29 @@
+Welcome to Blockman Forge!
+
+Copyright © [2024] Drej aka AxtonDonovan. All rights reserved.
+
+These terms of service ("Terms") govern your access to and use of Blockman Forge ("the Game"), provided by [Drej] aka [AxtonDonovan] ("we", "us", or "our"). By accessing or using the Game, you agree to be bound by these Terms. If you do not agree to these Terms, do not access or use the Game.
+
+1. License and Use: [Drej] aka [AxtonDonovan] grants you a limited, non-exclusive, non-transferable license to download and play the Game for personal use only. You may not modify, distribute, transmit, display, perform, reproduce, publish, license, create derivative works from, transfer, or sell any information, software, products, or services obtained from the Game. Modifying or editing the Blockman Forge application may result in violations of copyright law.
+
+2. User Content: By using the Game, you may submit content, including but not limited to text, images, and other materials ("User Content"). You retain ownership of any intellectual property rights that you hold in the User Content. By submitting User Content, you grant [Drej] aka [AxtonDonovan] a worldwide, non-exclusive, royalty-free, sublicensable, and transferable license to use, reproduce, distribute, prepare derivative works of, display, and perform the User Content in connection with the Game.
+
+3. Prohibited Conduct: You agree not to engage in any of the following prohibited activities: (a) use the Game for any illegal purpose or in violation of any local, state, national, or international law; (b) violate or infringe upon the rights of others, including privacy, publicity, intellectual property, or contractual rights; (c) engage in any conduct that restricts or inhibits anyone's use or enjoyment of the Game; (d) attempt to gain unauthorized access to the Game or its related systems or networks.
+
+4. Original Content Disclaimer: Blockman Forge is a fanmade game inspired by [BlockMan Go], and is not affiliated with or endorsed by [SandBox / GVERSE]. All original content and intellectual property rights related to [SandBox / GVERSE] belong to their respective owners.
+
+5. Modification and Fanmade Games: If you wish to modify or create your own fanmade game based on Blockman Forge, we recommend using the original Blockman Go APK and giving proper credits to [SandBox / GVERSE]. Unauthorized modification of Blockman Forge may result in copyright infringement.
+
+6. Termination: We may terminate or suspend your access to the Game without prior notice or liability for any reason, including if you violate these Terms.
+
+7. Disclaimer of Warranties: The Game is provided "as is" without warranties of any kind, either express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, or non-infringement.
+
+8. Limitation of Liability: [Drej] aka [AxtonDonovan] shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from (a) your access to or use of or inability to access or use the Game; (b) any conduct or content of any third party on the Game.
+
+9. Changes to Terms: We reserve the right to modify or replace these Terms at any time. If a revision is material, we will provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.
+
+10. Governing Law: These Terms shall be governed by and construed in accordance with the laws of [World Wide], without regard to its conflict of law provisions.
+
+11. Contact Us: If you have any questions about these Terms, please contact us at [Our Community Discord Server].
+
+By using Blockman Forge, you agree to these Terms. Enjoy the game!
