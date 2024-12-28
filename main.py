@@ -85,7 +85,7 @@ class MainWindow(QMainWindow):
         text_layout.setAlignment(Qt.AlignmentFlag.AlignCenter)
         text_layout.setContentsMargins(0, 0, 0, 0)
 
-        self.profile_text = QLabel("Qrexxed")
+        self.profile_text = QLabel()
         self.profile_text.setStyleSheet("color: white; font-size: 14px; text-align: center;")
         text_layout.addWidget(self.profile_text)
 
@@ -93,7 +93,7 @@ class MainWindow(QMainWindow):
         self.vip_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         text_layout.addWidget(self.vip_label)
 
-        self.id_label = QLabel("ID: 256")
+        self.id_label = QLabel()
         self.id_label.setStyleSheet("color: white; font-size: 14px; text-align: center;")
         text_layout.addWidget(self.id_label)
 
@@ -176,6 +176,7 @@ class MainWindow(QMainWindow):
             config = configparser.ConfigParser()
             config.read(config_path)
 
+            # Set the VIP level and image
             viplvl = config.getint("DEFAULT", "viplvl", fallback=1)
             vip_images = {
                 1: "Images/vip.png",
@@ -187,32 +188,18 @@ class MainWindow(QMainWindow):
             vip_pixmap = QPixmap(vip_image_path).scaled(60, 20, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)
             self.vip_label.setPixmap(vip_pixmap)
 
+            # Set the user ID
             user_id = config.get("DEFAULT", "id", fallback="256")
             self.id_label.setText(f"ID: {user_id}")
 
-            profilelvl = config.get("DEFAULT", "profilelvl", fallback="bronze")
-            colorname = config.get("DEFAULT", "colorname", fallback="")
+            # Set the username
+            username = config.get("DEFAULT", "username", fallback="Null")
+            self.profile_text.setText(username)
 
+            # Apply color settings
+            colorname = config.get("DEFAULT", "colorname", fallback="")
             if colorname == "rainbow":
                 self.start_rainbow_animation()
-            else:
-                self.apply_profile_style(profilelvl)
-
-    def apply_profile_style(self, profilelvl):
-        gradient = QLinearGradient(0, 0, 1, 0)
-        if profilelvl == "bronze":
-            gradient.setColorAt(0, QColor("#cd7f32"))
-            gradient.setColorAt(1, QColor("#b87333"))
-        elif profilelvl == "silver":
-            gradient.setColorAt(0, QColor("#c0c0c0"))
-            gradient.setColorAt(1, QColor("#a9a9a9"))
-        elif profilelvl == "gold":
-            gradient.setColorAt(0, QColor("#ffd700"))
-            gradient.setColorAt(1, QColor("#ffcc00"))
-
-        palette = self.profile_text.palette()
-        palette.setBrush(QPalette.ColorRole.WindowText, QBrush(gradient))
-        self.profile_text.setPalette(palette)
 
     def start_rainbow_animation(self):
         self.current_r = 255
